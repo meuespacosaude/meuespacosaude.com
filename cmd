@@ -1,0 +1,1 @@
+cat ../index.html | grep "url" | awk '{print $1}' | sed 's/src=//g' | sed 's/srcset=//g' | sed 's/"//g' | xargs -l1 wget
