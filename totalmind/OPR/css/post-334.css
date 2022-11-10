@@ -1,0 +1,49 @@
+.elementor-334 .elementor-element.elementor-element-617e1117:not(.elementor-motion-effects-element-type-background), .elementor-334 .elementor-element.elementor-element-617e1117 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#DDDDDD;}.elementor-334 .elementor-element.elementor-element-617e1117 > .elementor-background-overlay{background-color:#ED7F0A;opacity:0;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-334 .elementor-element.elementor-element-617e1117{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-334 .elementor-element.elementor-element-d6a7940{--spacer-size:62px;}.elementor-334 .elementor-element.elementor-element-36075b35{--spacer-size:10px;}.elementor-334 .elementor-element.elementor-element-34f4839 img{width:9%;}.elementor-334 .elementor-element.elementor-element-11f8aae8{text-align:center;}.elementor-334 .elementor-element.elementor-element-11f8aae8 .elementor-heading-title{color:#0071FA;font-family:"Roboto", Sans-serif;font-size:45px;font-weight:900;line-height:41px;}.elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button .elementor-align-icon-right{margin-left:13px;}.elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button .elementor-align-icon-left{margin-right:13px;}.elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button{font-family:"Lato", Sans-serif;font-size:18px;font-weight:600;fill:#FFFFFF;color:#FFFFFF;background-color:#58C00D;border-radius:5px 5px 5px 5px;padding:20px 40px 20px 40px;}.elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button:hover, .elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button:focus{color:#FFFFFF;background-color:#58C00D;}.elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button:hover svg, .elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button:focus svg{fill:#FFFFFF;}.elementor-334 .elementor-element.elementor-element-5a54f2b0 > .elementor-widget-container{margin:45px 0px 0px 0px;}.elementor-334 .elementor-element.elementor-element-34738adf{--spacer-size:10px;}.elementor-334 .elementor-element.elementor-element-48069308 img{width:57%;}.elementor-334 .elementor-element.elementor-element-48069308 > .elementor-widget-container{margin:36px 56px 0px -59px;padding:0px 0px 0px 0px;}.elementor-334 .elementor-element.elementor-element-731f5d75{--spacer-size:10px;}body.elementor-page-334:not(.elementor-motion-effects-element-type-background), body.elementor-page-334 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}@media(min-width:768px){.elementor-334 .elementor-element.elementor-element-73576c3c{width:44.372%;}.elementor-334 .elementor-element.elementor-element-71e0d841{width:55.628%;}}@media(max-width:1024px){.elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button{padding:20px 20px 20px 20px;}}@media(max-width:767px){.elementor-334 .elementor-element.elementor-element-d6a7940{--spacer-size:10px;}.elementor-334 .elementor-element.elementor-element-36075b35{--spacer-size:30px;}.elementor-334 .elementor-element.elementor-element-34f4839 img{width:29%;}.elementor-334 .elementor-element.elementor-element-11f8aae8 .elementor-heading-title{font-size:47px;line-height:1.2em;}.elementor-334 .elementor-element.elementor-element-5a54f2b0 .elementor-button{font-size:14px;padding:15px 30px 15px 30px;}.elementor-334 .elementor-element.elementor-element-34738adf{--spacer-size:224px;}.elementor-334 .elementor-element.elementor-element-48069308 img{width:67%;}.elementor-334 .elementor-element.elementor-element-48069308 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-334 .elementor-element.elementor-element-731f5d75{--spacer-size:143px;}}/* Start custom CSS */.m0{
+margin: 0 !important;
+}
+body{
+overflow-x: hidden;
+}
+/*Overlay Header*/
+
+*#header:before{
+content: '';
+width: 30%;
+height: 100%;
+background: url(https://webmaterializer.com/wp-content/uploads/2022/01/modelo-header.png);
+  background-size: auto;
+background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
+background-blend-mode: darken;
+opacity: 0.5;
+z-index: 1;
+}
+
+.bt-tabs{
+animation: pulse 1s infinite;
+}
+
+/*Beneficiosr*/
+
+.box-bn{
+ border-style: solid;
+ border-width: 0 0 3px 0;
+border-image: linear-gradient(to right, #E94591 , #B662C2);
+border-image-slice: 1;
+box-shadow: #c7c7c7 1px 1px 15px;
+margin: 0px 10px 40px;
+border-radius: 8px;
+overflow: hidden;
+}
+
+
+
+@media (max-width:768px){
+
+#header:before{
+    display:none;
+}
+    
+}/* End custom CSS */
