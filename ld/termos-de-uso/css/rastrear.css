@@ -1,0 +1,62 @@
+   .monitorar {
+    background: none;
+    width: 500px;
+    border-radius: 3px;
+    /*position: absolute;*/
+    z-index: 5000;
+    margin-left: -50px;
+    /*margin-right: auto;*/
+    top: 151px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    }
+	
+    .monitorar:hover {
+	
+        color: #006400;
+    }
+	
+    .rastreio {
+	
+    background: #006400;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #3CB371;
+    color: white;
+    cursor: pointer;
+	
+    }
+
+    .rastreio:hover {
+    
+    background: #3CB371;
+
+}
+
+    .rastreio:before {
+
+    content: "";
+    font-family: icomoon;
+    margin-right: 10px;
+    font-size: 12px;
+
+}
+	
+    input#OrderTracking {
+	
+    background: none;
+    width: 228px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 0px;
+    border-radius: 6px;
+    border: 1px solid #008000;
+    color: #b9b9b9;
+	
+    }
